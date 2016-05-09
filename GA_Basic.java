@@ -192,10 +192,10 @@ public class GA_Basic {
 
 //			if(Math.abs(this.populacao.get(this.determinaMelhor()).getFator_avaliacao() - 3400.0) < 0.97) {
 			if(this.populacao.get(this.determinaMelhor()).getAvaliacao() - this.media() < (this.populacao.get(this.determinaMelhor()).getAvaliacao() * 0.1)){ 
-				System.out.println("Ótimo Encontrado!!!");
-				System.out.println(this.media());
-				System.out.println(this.populacao.get(this.determinaMelhor()).toString());
-				System.out.println("Optimum Setup: " + this.chance_mutacao + " " + this.chance_crossover + " " + this.tam_pop + " " + this.pressao_selecao);
+//				System.out.println("Ótimo Encontrado!!!");
+//				System.out.println(this.media());
+//				System.out.println(this.populacao.get(this.determinaMelhor()).toString());
+//				System.out.println("Optimum Setup: " + this.chance_mutacao + " " + this.chance_crossover + " " + this.tam_pop + " " + this.pressao_selecao);
 				return 1;
 			}
 
